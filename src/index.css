@@ -1,0 +1,178 @@
+body {
+  margin: auto;
+  width: 60%;
+  font-family: 'Times New Roman', Times, serif;
+    /* -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', */
+    /* 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', */
+    /* sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Times New Roman', Times, serif;
+  /* source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; */
+}
+
+/*Contents*/
+.container {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+h3  {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  margin-inline-start: 0 !important;
+  margin-inline-end: 0 !important;
+  font-weight: bold;
+  color: #296311;
+}
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  margin-inline-start: 0 !important;
+  margin-inline-end: 0 !important;
+  font-weight: bold;
+}
+.imgProd {
+  width: 150px;
+  height: 150px;
+}
+.btnQty {
+  background-color: #65ce34;
+  padding: 10px 15px;
+  border-radius: 50%;
+  border: 0;
+  font-weight: bold;
+}
+.btnAdd {
+  background: #65ce34;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: 0;
+  font-weight: bold;
+}
+.btnCheckout {
+  background-color: #9acd32;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 6px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.warning {
+  color: red;
+}
+.primary {
+  color: black;
+}
+
+/*Footer*/
+.footer {
+  overflow: hidden;
+  background-color: #333;
+  bottom: 0;
+  position: fixed;
+  width: 60%;
+  height: 48px;
+}
+
+.footerItem {
+  float: left;
+  display: block;
+  color: white;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+
+/* MODAL */
+.popCheckout {
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-content: center;
+}
+/* Modal content */
+.popCheckoutCont {
+  background-color: whitesmoke;
+  width: 30%;
+  height: 35%;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  margin: auto; 
+  text-align: center;
+  margin-top: 15rem;
+}
+/*Message*/
+#checkoutMsg {
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+/* Close button */
+.closeBut {
+  color: #ff0800;
+  font-weight: bolder;
+  float: right;
+  font-size: 24pt;
+  margin-right: 15px;
+}
+.closeBut:hover,
+.closeBut:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/**/
+
+/*Media Query*/
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+  }
+  .imgProd {
+    width: 80%;
+    height: 60%;
+  }
+  .leftSide {
+    float: left;
+    height: 250px;
+    width: 45%;
+  }
+  .rightSide {
+    float: right;
+    height: 250px;
+    width: 55%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .popCheckoutCont {
+    width: 70% !important;
+    height: 45% !important;
+  }
+  .popCheckoutCont {
+    margin-top: 10rem;
+  }
+  .btnQty {
+    background-color: #65ce34;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: 0;
+  }
+  .btnAdd {
+    background: #65ce34;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 0;
+  }
+}
