@@ -1,4 +1,5 @@
-# Shoppin Cart using React
+# Shopping Cart using React
+![ShoppingCart](https://user-images.githubusercontent.com/77540939/104820824-887c9180-585d-11eb-92e8-3b04755caab4.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
